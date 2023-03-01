@@ -19,4 +19,39 @@ public class Main {
 
         System.out.printf("A área do circulo é " + areaCirculo);
     }
+===========SOBRE VARIAVEIS==============
+import java.util.function.DoubleFunction;
+
+public class p2 {
+    public static void main(String[] args) {
+
+        System.out.println(">>>>>>>>>>Tipos de variáveis inteiros<<<");
+        byte meuByte = 127;
+        System.out.printf("Tamanho do Byte: %d\n",meuByte);
+
+        short meuShort = 32767;
+        System.out.printf("Tamanho do Short: %d\n",meuShort);
+
+        int meuInt = 2_147_483_647;
+        System.out.printf("Tamanho do Int: %d\n",meuInt);
+
+        long meuLong = 9_223_372_036_854_775_807L;
+        System.out.printf("Tamanho do Long: %d\n",meuLong);
+        System.out.println("                                          ");
+
+        System.out.println(">>>>>>>>>>Tipos de dados reais<<<<<<<<<<");
+        float meuFloat = 3.4e+38F;
+        System.out.printf("Valor do Float: %f\n",meuFloat);
+
+        double meuDouble = 1.7e+308;
+        System.out.printf("Valor do Double: %f\n",meuDouble);
+
+        System.out.println("                                          ");
+        System.out.println(">>>>>>>>>>Tipos de variáveis caracter<<<");
+        char meuCaracter = 'N';
+        System.out.printf("Meu caracter é %c\n", meuCaracter);
+
+    }
 }
+
+    
