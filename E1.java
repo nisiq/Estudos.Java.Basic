@@ -23,6 +23,35 @@ public class Main {
 import java.util.function.DoubleFunction;
 
 public class p2 {
+public class p1 {
+    public static void main(String[] args) {
+        int idade = 18;
+        int idade2 = 18;
+
+        double somaidades = idade + idade2;
+
+        System.out.printf("A soma das duas idades é "+somaidades);
+
+
+    }
+}
+=======================================================
+public class Main {
+    public static void main(String[] args) {
+        int raio = 5;
+        final double pi = 3.141;
+        double areaCirculo = pi * raio * raio;
+
+        System.out.printf("A área do circulo é " + areaCirculo);
+    }
+===========SOBRE VARIAVEIS==============
+
+
+import javax.sound.midi.Soundbank;
+import java.util.Scanner;
+import java.util.function.DoubleFunction;
+
+public class p2 {
     public static void main(String[] args) {
 
         System.out.println(">>>>>>>>>>Tipos de variáveis inteiros<<<");
@@ -40,6 +69,7 @@ public class p2 {
         System.out.println("                                          ");
 
         System.out.println(">>>>>>>>>>Tipos de dados reais<<<<<<<<<<");
+
         float meuFloat = 3.4e+38F;
         System.out.printf("Valor do Float: %f\n",meuFloat);
 
@@ -47,11 +77,32 @@ public class p2 {
         System.out.printf("Valor do Double: %f\n",meuDouble);
 
         System.out.println("                                          ");
+
         System.out.println(">>>>>>>>>>Tipos de variáveis caracter<<<");
-        char meuCaracter = 'N';
-        System.out.printf("Meu caracter é %c\n", meuCaracter);
+
+        char meuChar = 'N';
+        System.out.printf("Meu char: é %c\n", meuChar);
+
+        boolean meuBoolean = true; //ou falso
+        System.out.printf("Meu booleano é: %b\n",meuBoolean);
+
+        String minhaString = "Hello World!";
+        System.out.println("Minha string é: "+minhaString);
+
+        System.out.println("                                          ");
+        System.out.println("                                          ");
+
+
+
+        String palavra;
+        Scanner entrada = new Scanner(System.in);
+        System.out.print("Digite uma palavra: ");
+        palavra = entrada.nextLine();
+        System.out.println("A palavra que você digitou foi "+palavra);
+        entrada.close();
 
     }
 }
 
-    
+    }
+}
