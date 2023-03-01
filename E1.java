@@ -11,3 +11,12 @@ public class p1 {
     }
 }
 =======================================================
+public class Main {
+    public static void main(String[] args) {
+        int raio = 5;
+        final double pi = 3.141;
+        double areaCirculo = pi * raio * raio;
+
+        System.out.printf("A área do circulo é " + areaCirculo);
+    }
+}
